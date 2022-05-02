@@ -1,0 +1,559 @@
+@font-face /* FONT for Timeless*/
+{
+    font-family: 'timeless';
+    src: url('fonts/timeless.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{ /* FONT for Myriad Pro */
+    font-family: 'myriadpro';
+    src: url('fonts/myriadpro.otf.OTF')
+}
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+/* HOMEPAGE */
+.homep
+{
+  position: relative;
+}
+
+.header
+{
+  width: 100%;
+  height: 50%;
+}
+
+#logo
+{
+  border: 10%;
+  width: 6%;
+  margin-left: 3%;
+  margin-top: 2%;
+  position: absolute;
+}
+
+.header h1
+{
+  margin-left: 10%;
+  margin-top: 3%;
+  font-family: 'timeless';
+  font-weight: bold;
+  font-size: 25px;
+  position: absolute;
+}
+
+.header p
+{
+  margin-left: 80%;
+  margin-top: 4%;
+  font-family: 'myriadpro';
+  font-weight: normal;
+  font-size: 15px;
+  text-align: left;
+  position: absolute;
+}
+
+#line
+{
+  align-self: center;
+  width: 100%;
+  margin-top: 9%;
+  position: absolute;
+}
+
+/* LINKS */
+.table
+{
+	margin: 9% 25%;
+  position: absolute;
+}
+
+ ul
+{
+	padding-top: 20px;
+}
+
+ a
+{
+  text-decoration: none;
+  color: #000000;
+}
+
+li
+ {
+		display: inline-block;
+    padding: 5px;
+    font-size: 103%;
+    font-family: 'timeless';
+    font-weight: bold;
+	}
+
+li img
+  {
+    width: 18%;
+    padding: 7px;
+    position: relative;
+  }
+
+/* HOMEPAGE IMAGES */
+.homep-img
+{
+  width: 100%;
+}
+
+#img1
+{
+  width: 94%;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 18%;
+
+}
+
+#img2
+{
+  width: 50%;
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 18%;
+}
+
+/* HOMEPAGE TEXT BOX */
+.homep-text h1
+{
+  color: #ffffff;
+  font-size: 60px;
+  font-family: 'myriadpro';
+  font-weight: bold;
+  margin-top: 21%;
+  margin-left: 95px;
+  position: absolute;
+}
+
+.homep-text h2
+{
+  color: #ffffff;
+  font-size: 17px;
+  font-family: 'myriadpro';
+  font-weight: normal;
+  margin-top: 33%;
+  margin-left: 95px;
+  height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  border: 2px dashed #ffffff;
+  position: absolute;
+}
+
+.text img
+{
+  width: 6%;
+  margin-left: 33px;
+  margin-top: 46%;
+  position: absolute;
+}
+
+.text h1
+{
+  font-size: 25px;
+  font-family: 'timeless';
+  font-weight: bold;
+  text-decoration: underline;
+  margin-left: 33px;
+  margin-top: 49%;
+  position: absolute;
+}
+
+/* DESCRIPTION */
+.text p
+{
+  color: #000000;
+  text-align: center;
+  font-size: 26px;
+  font-family: 'timeless';
+  font-weight: bold;
+  margin-top: 55%;
+  margin-left: 23%;
+  height: 115px;
+  padding: 30px 30px 30px 30px;
+  border: 2px solid #494646;
+  border-right: 8px solid #494646;
+  border-bottom: 8px solid #494646;
+  border-radius: 3px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 8px;
+  position: absolute;
+}
+
+#bg
+{
+  margin-top: 70%;
+  margin-left: 56%;
+  width: 20%;
+  position: absolute;
+}
+
+#paw-img
+{
+  margin-top: 53%;
+  margin-left: 89%;
+  width: 9%;
+  position: absolute;
+}
+
+.service p a
+{
+  color: #ffffff;
+  background-color: #464040;
+  font-size: 24px;
+  font-family: 'myriadpro';
+  margin-top: 71%;
+  margin-left: 59%;
+  position: absolute;
+}
+
+/* PET SUPPLY */
+.pet-supplies img
+{
+  width: 6%;
+  margin-top: 79%;
+  margin-left: 37%;
+  position: absolute;
+}
+
+ .pet-supplies h1
+{
+  color: #8f0202;
+  font-size: 38px;
+  font-family: 'timeless';
+  margin-top: 80.5%;
+  margin-left: 44%;
+  position: absolute;
+}
+
+.pet-supplies h2
+{
+ font-size: 23px;
+ font-family: 'myriadpro';
+ margin-top: 84%;
+ margin-left: 44%;
+ position: absolute;
+}
+
+#s1
+{
+  width: 13%;
+  position: absolute;
+  padding-left: 5px;
+  margin-left: 11%;
+  margin-top: 91%;
+  height: 27%;
+  border: 4px solid #8f0202;
+}
+
+#s2
+{
+  width: 13%;
+  position: absolute;
+  padding-left: 5px;
+  margin-left: 31%;
+  margin-top: 91%;
+  height: 27%;
+  border: 4px solid #8f0202;
+}
+
+#s3
+{
+  width: 13%;
+  position: absolute;
+  padding-left: 5px;
+  margin-left: 51%;
+  margin-top: 91%;
+  height: 27%;
+  border: 4px solid #8f0202;
+}
+
+#s4
+{
+  width: 13%;
+  position: absolute;
+  padding-left: 5px;
+  margin-left: 71%;
+  margin-top: 91%;
+  height: 27%;
+  border: 4px solid #8f0202;
+}
+
+#text1
+{
+  text-align: center;
+  font-family: 'myriadpro';
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #8f0202;
+  width: 10%;
+  position: absolute;
+  margin-left: 13%;
+  margin-top: 105%;
+}
+
+#text2
+{
+  text-align: center;
+  font-family: 'myriadpro';
+  font-size: 20px;
+  background-color: #8f0202;
+  width: 10%;
+  position: absolute;
+  margin-left: 33%;
+  margin-top: 105%;
+}
+
+#text3
+{
+  text-align: center;
+  font-family: 'myriadpro';
+  font-size: 20px;
+  background-color: #8f0202;
+  width: 10%;
+  position: absolute;
+  margin-left: 53%;
+  margin-top: 105%;
+}
+
+#text4
+{
+  text-align: center;
+  font-family: 'myriadpro';
+  font-size: 20px;
+  background-color: #8f0202;
+  width: 10%;
+  position: absolute;
+  margin-left: 73%;
+  margin-top: 105%;
+}
+
+#s5
+{
+  width: 13%;
+  position: absolute;
+  padding-left: 5px;
+  margin-left: 11%;
+  margin-top: 115%;
+  height: 27%;
+  border: 4px solid #8f0202;
+}
+
+#s6
+{
+  width: 13%;
+  position: absolute;
+  padding-left: 5px;
+  margin-left: 31%;
+  margin-top: 115%;
+  height: 27%;
+  border: 4px solid #8f0202;
+}
+
+#s7
+{
+  width: 13%;
+  position: absolute;
+  padding-left: 5px;
+  margin-left: 51%;
+  margin-top: 115%;
+  height: 27%;
+  border: 4px solid #8f0202;
+}
+
+#s8
+{
+  width: 13%;
+  position: absolute;
+  padding-left: 5px;
+  margin-left: 71%;
+  margin-top: 115%;
+  height: 27%;
+  border: 4px solid #8f0202;
+}
+
+#text5
+{
+  text-align: center;
+  font-family: 'myriadpro';
+  font-size: 20px;
+  background-color: #8f0202;
+  width: 10%;
+  position: absolute;
+  margin-left: 13%;
+  margin-top: 129%;
+}
+
+#text6
+{
+  text-align: center;
+  font-family: 'myriadpro';
+  font-size: 20px;
+  background-color: #8f0202;
+  width: 10%;
+  position: absolute;
+  margin-left: 33%;
+  margin-top: 129%;
+}
+
+#text7
+{
+  text-align: center;
+  font-family: 'myriadpro';
+  font-size: 20px;
+  background-color: #8f0202;
+  width: 10%;
+  position: absolute;
+  margin-left: 53%;
+  margin-top: 129%;
+}
+
+#text8
+{
+  text-align: center;
+  font-family: 'myriadpro';
+  font-size: 20px;
+  background-color: #8f0202;
+  width: 10%;
+  position: absolute;
+  margin-left: 73%;
+  margin-top: 129%;
+}
+
+.supplies h3 a
+{
+  color: #ffffff;
+}
+
+#text
+{
+  text-align: center;
+  font-family: 'myriadpro';
+  font-size: 32px;
+  background-color: #8f0202;
+  width: 18%;
+  position: absolute;
+  margin-left: 39%;
+  margin-top: 135%;
+  margin-bottom: 500%;
+}
+/* developers */
+#devlogo{
+  margin: 150% 0% 0% 20%;
+}
+.devteam h1{
+  margin: 150.3% 0% 0% 28%;
+  font-size: 40px;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  word-spacing: 6px;
+}
+.meettt{
+  padding-top: 151%;
+  padding-left: 29%;
+  font-size: 50px;
+  font-family: 'timeless';
+  text-decoration: underline;
+}
+#bgdevteams{
+  width: 1263px;
+  height: 205px;
+  margin-left: 0%;
+  margin-top: 159%;
+}
+#d1{ margin-top: 160%; margin-left: 8%; width: 174px; height: auto;}
+#d2{ margin-top: 160%; margin-left: 30%; width: 174px; height: auto; }
+#d3{ margin-top: 160%; margin-left: 55%; width: 174px; height: auto; }
+#d4{ margin-top: 160%; margin-left: 80%; width: 174px; height: auto; }
+.namelink{
+  padding-top: 20%;
+  padding-left: 11%;
+  font-size: 30px;
+  font-family: 'myriadpro';
+  color: #000;
+}
+#choqho{ margin-left: 23%; margin-top: -3%; }
+#jaimee{ margin-left: 53%; margin-top: -3.2%; }
+#rendell{ margin-left: 80%; margin-top: -3.4%; }
+/* LOCATE US */
+#bgmap{
+  position: relative;
+  display: block;
+  margin-top: 2%;
+  margin-left: 1%;
+  width: 1230px;
+  height: 650px;
+}
+.locateus h3{
+  margin: -40% 0% 0% 18%;
+  font-size: 30px;
+  font-family: 'timeless';
+  position: absolute;
+}
+#locsign{
+  margin: -42% 0% 0% 10%;
+  position: absolute;
+}
+#logo3{
+  margin: -43% 0% 0% 43%;
+  position: absolute;
+}
+.locateus h2{
+  font-size: 50px;
+  font-family: 'timeless';
+  margin: -43% 0% 0% 51%;
+  position: absolute;
+}
+.locateus h4{
+  font-size: 110%;
+  font-family: 'myriadpro';
+  margin: -33% 0% 0% 51%;
+  letter-spacing: -1px;
+  word-spacing: 3px;
+  position: absolute;
+}
+#policy{
+  margin-top: -11%;
+  margin-left: 6%;
+  font-size: 15px;
+  font-family: 'myriadpro';
+  position: absolute;
+}
+#forum{
+  margin-top: -11%;
+  margin-left: 21%;
+  font-size: 15px;
+  font-family: 'myriadpro';
+  position: absolute;
+}
+#faqs{
+  margin-top: -11%;
+  margin-left: 26%;
+  font-size: 15px;
+  font-family: 'myriadpro';
+  position: absolute;
+}
+.locateus h5{
+  font-size: 20px;
+  font-family: 'myriadpro';
+  margin: -12% 0% -0% 65%;
+  position: absolute;
+}
+#through{
+  margin-left: 19%;
+  margin-top: -35%;
+}
+.locateus a{
+  color: #8F0202;
+  text-decoration: underline;
+}
